@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/johnny-jefferson1010/">
-    <img alt="Made by Johnny Jefferson" src="https://img.shields.io/badge/made%20by-Vitor%20Oliveira-brightgreen">
+    <img alt="Made by Johnny Jefferson" src="">
   </a>
 </p>
 
