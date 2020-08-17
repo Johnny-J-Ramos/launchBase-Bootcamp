@@ -7,12 +7,6 @@
   :hourglass:  LaunchBase  5.0  :rocket:  Em andamento!  :hourglass:
 </h4>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/johnny-jefferson1010/">
-    <img alt="Made by Johnny Jefferson" src="">
-  </a>
-</p>
-
 <p>
   &nbsp;
 </p>
