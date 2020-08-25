@@ -1,5 +1,4 @@
-const nome = 'Johnny';
-const peso = 63;
-const altura = 1.69;
+const nome = 'johnny';
+const idade = 26;
 
-const imc = peso / (altura * altura);
+console.log(nome);
