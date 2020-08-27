@@ -10,6 +10,8 @@ const empresa = [
   },
 ];
 
+//terminando o desafio 2
+
 console.log(
   `A empresa ${empresa[0].nome} está localizada em ${empresa[4].Rua}`
 );
