@@ -33,10 +33,6 @@
 - [Funções e estruturas de repetição](desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
 - [Aplicação: Operações bancárias](desafios/01-4-aplicacao-operacoes-bancarias.md)
 
-## :calendar: Entrega
-
-Esses desafios **não precisam ser entregues** e não receberão correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
-
 ---
 
 Feito com :purple_heart: by [Johnny Jefferson](https://www.linkedin.com/in/johnny-jefferson1010/)
