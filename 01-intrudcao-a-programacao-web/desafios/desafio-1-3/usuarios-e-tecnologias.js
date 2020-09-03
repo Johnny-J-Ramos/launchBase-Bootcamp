@@ -14,11 +14,13 @@ const usuarios = [
     nome: 'Luana',
     tecnologias: ['Docker', 'Node.js'],
   },
+  {
+    nome: 'Maria',
+    tecnologias: ['Docker', 'Node.js'],
+  },
 ];
 
-/*for (let usuario of usuarios) {
-  console.log(`${usuario.nome} trabalha com ${usuario.tecnologias.join(', ')}`);
-}*/
 for (let usuario of usuarios) {
   console.log(`${usuario.nome} trabalha com ${usuario.tecnologias.join(', ')}`);
 }
+  
