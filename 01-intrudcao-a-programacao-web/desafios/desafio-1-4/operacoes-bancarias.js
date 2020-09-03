@@ -7,7 +7,7 @@ const user = {
   type: 'credit',
   value: 50.5
 }
-<h1>cf</h1>
+
 
 function createTransaction (){
 
