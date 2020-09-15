@@ -13,9 +13,7 @@ function createTransaction(transaction) {
     user.balance -= transaction.value;
   }
 }
-h1
 
-ddk
 
 function getHigherTransactionByType(transactionType) {
   const higherTransaction = {
