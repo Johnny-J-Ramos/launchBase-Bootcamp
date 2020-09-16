@@ -14,7 +14,7 @@ function createTransaction(transaction) {
   }
 }
 
-
+fdfdl
 function getHigherTransactionByType(transactionType) {
   const higherTransaction = {
     type: transactionType,
