@@ -121,3 +121,26 @@ header {
   text-align: center;
   padding: 5px 20px;
 }
+
+/* pop-up MODAL */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  color: black;
+  right: 0;
+  position: absolute;
+}
