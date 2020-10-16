@@ -1,0 +1,91 @@
+:root {
+  --color-green: #0de46d;
+  --color-rocke: #7159c1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+} /* Cards */
+
+.cards {
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: #7159c1;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.card__image_containner img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card__content,
+.card_inf {
+  padding: 20px;
+}
+
+.card_inf {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card__prime {
+  background-color: var(--color-rocke);
+  filter: brightness(90%);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+/* pop-up MODAL */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  color: black;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* MODAL ATIVE */
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Video Iframe */
+
+iframe {
+  width: 100%;
+  height: 90%;
+  top: 40px;
+  position: absolute;
+}
