@@ -74,6 +74,8 @@ h1 {
   cursor: pointer;
 }
 
+
+
 /* MODAL ATIVE */
 
 .modal-overlay.active {
@@ -95,3 +97,9 @@ iframe {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+.modal-overlay p strong.card {
+  color: var(--color-launchbase);
+}
+
+

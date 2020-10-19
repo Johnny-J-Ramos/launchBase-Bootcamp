@@ -13,3 +13,7 @@ const closeModal = document
     modalOverley.classList.remove('active');
     modalOverley.querySelector('iframe').src = '';
   });
+
+const MaxiModal = document.querySelector('#mix').addEventListener('click', function(){
+  mod
+})
