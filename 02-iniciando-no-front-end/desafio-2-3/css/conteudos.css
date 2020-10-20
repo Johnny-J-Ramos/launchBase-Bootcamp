@@ -73,8 +73,13 @@ h1 {
   position: absolute;
   cursor: pointer;
 }
-
-
+.modal .maximize-modal {
+  color: black;
+  right: 40px;
+  top: 10px;
+  position: absolute;
+  cursor: pointer;
+}
 
 /* MODAL ATIVE */
 
@@ -101,5 +106,3 @@ iframe {
 .modal-overlay p strong.card {
   color: var(--color-launchbase);
 }
-
-
