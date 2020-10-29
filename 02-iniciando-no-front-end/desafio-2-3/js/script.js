@@ -5,9 +5,11 @@ let modalMaximized = false;
 
 for (let card of cards) {
   card.addEventListener('click', () => {
+    const imgId = card.getAttribute('id');
     modalOverley.classList.add('active');
-    modalOverley.querySelector('iframe').src =
-      'https://blog.rocketseat.com.br/upload-de-imagens-no-front-end-com-react-js-e-context-api-3/';
+    modalOverley.querySelector(
+      'iframe'
+    ).src = `https://blog.rocketseat.com.br/${imgId}`;
   });
 }
 

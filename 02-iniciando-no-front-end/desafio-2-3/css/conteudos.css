@@ -1,11 +1,16 @@
-:root {
+@import 'https://fonts.googleapis.com/css2? family = Syne + Mono & display = swap';
+
+root {
   --color-green: #0de46d;
   --color-rocke: #7159c1;
 }
 
 h1 {
+  font-size: 50px;
+  font-family: 'Syne Mono', monospace;
   text-align: center;
   margin-bottom: 20px;
+  color: var(--color-green);
   margin-top: 20px;
 } /* Cards */
 
@@ -38,6 +43,16 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
 }
+.card_inf p {
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
+}
+
+.card__content p {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
+}
 
 .card__prime {
   background-color: var(--color-rocke);
@@ -45,6 +60,7 @@ h1 {
   border-radius: 20px;
   text-align: center;
   padding: 5px 20px;
+  font-family: 'Syne Mono', monospace;
 }
 
 /* pop-up MODAL */
@@ -98,11 +114,19 @@ iframe {
 }
 
 .footer {
+  font-size: 18px;
+  font-family: 'Syne Mono', monospace;
   text-align: center;
+  color: aliceblue;
   margin-top: 30px;
-  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.1);
 }
 
-.modal-overlay p strong.card {
-  color: var(--color-launchbase);
+.footer a {
+  text-decoration: none;
+  color: var(--color-rocke);
+}
+
+.footer a:hover {
+  color: var(--color-green);
 }
