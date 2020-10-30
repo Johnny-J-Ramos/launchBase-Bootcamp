@@ -1,49 +1,94 @@
 @import 'https://fonts.googleapis.com/css2? family = Roboto + Slab: wght @ 600; 900 & display = swap';
 @import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap';
 * {
   padding: 0;
-  margin: 0;
+  margin: 1px;
   box-sizing: border-box;
+  border: 0;
 }
 .nav-bar-home {
-  padding: 32px;
+  padding: 20px 0;
 }
+
+.nav-bar-home img {
+  margin-right: 70px;
+  float: left;
+}
+
+.nav-bar-home a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #111111;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
-  max-width: 952px;
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 header {
   margin: 0 auto;
   position: relative;
+  margin-top: 100px;
 }
 
 .caixa-aviso {
-  background-color: rebeccapurple;
+  background-color: #fbdfdb;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  width: 940px;
+  border-radius: 30px;
+  padding: 1px 90px 1px 50px;
+
+  display: flex;
+  justify-content: row-reverse;
 }
 
 .caixa-aviso img {
-  margin-top: 66px;
-  width: 216px;
-  height: 300px;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.text {
+  margin: 0 auto;
+  width: 50%;
+  margin-left: 0;
+}
+
+.text h2 {
+  color: #111111;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-size: 32px;
+  color: #111111;
+  margin-bottom: 5px;
+}
+.text p {
+  color: #000000;
+  opacity: 0.7;
+  line-height: 28px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #acess {
-  display: block;
-  width: 100%;
-  font-family: 'Roboto-bold', sans-serif;
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  padding: 20px 50px;
   color: #111111;
-  background-color: rebeccapurple;
-  text-align: center;
 }
 
 /* CARDS */
 .cards {
-  max-width: 952px;
+  max-width: 940px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -53,8 +98,20 @@ header {
   width: 100%;
   border-radius: 15px;
 }
-
+.info h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #111111;
+}
+.info p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
 /* FOOTER */
+.footer {
+  margin-top: 50px;
+}
 footer {
   background-color: #eeeeee;
   text-align: center;
