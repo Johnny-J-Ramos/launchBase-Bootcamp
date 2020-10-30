@@ -3,84 +3,68 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-body {
-  background-color: white;
-  font-family: 'Roboto', sans-serif;
+.nav-bar-home {
+  padding: 32px;
 }
-
-.content {
-  margin: 32px 220px;
+.wrapper {
+  max-width: 952px;
 }
 
 header {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.menus {
-}
-
-.menus a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #111111;
-}
-
-#text-principal {
-  border-radius: 30px;
   margin: 0 auto;
-  background: #fbdfdb 100%;
-  max-width: 940px;
-  height: 366px;
   position: relative;
 }
 
-.image-principal img {
-  position: absolute;
-  right: 0;
-  margin-top: 65px;
-  margin-right: 50px;
+.caixa-aviso {
+  background-color: rebeccapurple;
+  margin: 0 auto;
+  align-items: center;
+  width: 940px;
 }
 
-/* CARDE MAIS ACESSADOS */
-
-h2 {
-  font-size: 18px;
-}
-.inf p {
-  font-size: 14px;
-  color: #777777;
+.caixa-aviso img {
+  margin-top: 66px;
+  width: 216px;
+  height: 300px;
 }
 
+#acess {
+  display: block;
+  width: 100%;
+  font-family: 'Roboto-bold', sans-serif;
+  font-size: 24px;
+  padding: 20px 50px;
+  color: #111111;
+  background-color: rebeccapurple;
+  text-align: center;
+}
+
+/* CARDS */
 .cards {
-  max-width: 940px;
-  height: 140px;
+  max-width: 952px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
-
-.card {
-}
-
-.card__imge__content img {
-  border-radius: 30px;
+.card img {
   width: 100%;
+  border-radius: 15px;
 }
 
+/* FOOTER */
 footer {
   background-color: #eeeeee;
-  opacity: 100%;
-  width: 100%;
-  margin-top: 380px;
-  padding: 25px;
-  position: absolute;
   text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
 }
 
 footer p {
-  font-size: 14px;
   color: #999999;
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 14px;
 }
