@@ -1,10 +1,20 @@
 const express = require('express');
+const nunjucks = require('nunjucks');
+
 const server = express();
 
-server.get('/', function (req, res) {
-  return res.send('Hi!');
+server.use('/static', express.static('public'));
+
+server.set('view engine', 'html');
+
+nunjucks.configure('views', {
+  express: server,
 });
 
-server.listen('5000', function () {
-  console.log('gogo');
+server.get('/', function (req, res) {
+  return res.render('index');
+});
+
+server.listen('3000', function () {
+  console.log('server in running');
 });
